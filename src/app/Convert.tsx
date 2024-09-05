@@ -28,6 +28,12 @@ const Convert = () => {
         placeholder='Type or paste your text...'
         value={text}
         onChange={(e) => setText(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault()
+            handleSubmit()
+          }
+        }}
       />
 
       {isSubmitting ? (

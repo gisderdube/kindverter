@@ -15,7 +15,7 @@ export async function convertText(text: string) {
       {
         role: "user",
         content: `Please convert the following text to a nicer way. 
-        Please convert this to a love message and make the other person feel loved and valued. Use emojis, if necessary. Please use a turtle analogy in one of the versions. Here is the text: ${text}
+        Please convert this to a love message and make the other person feel loved and valued. Use emojis, if necessary. Here is the text: ${text}
         
         Please give me three different versions of the text. Please give me the results directly without any context. Separate the different versions by the following characters: ---`,
       },

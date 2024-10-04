@@ -10,10 +10,10 @@ export default function Home() {
         <p className="text-lg text-center">
           Need help communicating effectively? Kindverter is here to assist! Choose from our diverse
           categories - love, tinder, professional, child, or riddle - and let us rephrase your thoughts.
-          Whether you're navigating a delicate conversation with your partner, crafting the perfect Tinder
-          message, preparing for a professional interaction, simplifying complex ideas for children, or even
-          creating engaging riddles, Kindverter has got you covered. Transform your words into more effective,
-          appropriate, and impactful communication for any situation.
+          Whether you&apos;re navigating a delicate conversation with your partner, crafting the perfect
+          Tinder message, preparing for a professional interaction, simplifying complex ideas for children, or
+          even creating engaging riddles, Kindverter has got you covered. Transform your words into more
+          effective, appropriate, and impactful communication for any situation.
         </p>
 
         <Convert />
